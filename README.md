@@ -1,0 +1,2 @@
+# rest.templates
+rest.template
