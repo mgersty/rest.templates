@@ -23,7 +23,7 @@ public class InvestmentServiceController {
 
 
 	@RequestMapping(value="/investments", method=RequestMethod.GET, produces={"application/json"})
-    @ResponseStatus(HttpStatus.OK)
+        @ResponseStatus(HttpStatus.OK)
 	public @ResponseBody List<Investment> retrieveInvestments() {
 		
 		System.out.println("Retreiving Investments");
